@@ -1,25 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T02:25:22.460Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="SxkPrTlRmR151nysqoOs" version="17.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-25T06:38:20.023Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="sXJ2WqSFl77Ah-bImKf3" version="17.2.2" type="github">
   <diagram name="Page-1" id="2ca16b54-16f6-2749-3443-fa8db7711227">
-    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="860" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nQt5F8OV-MKO7lQRQoEB-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2ed32ef02a7f4228-1" target="nQt5F8OV-MKO7lQRQoEB-2">
+        <mxCell id="2ed32ef02a7f4228-1" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;角色表[Role]&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;id&lt;/td&gt;&lt;td&gt;主键id&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;name&lt;/td&gt;&lt;td&gt;角色名称&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;role_code&lt;br&gt;desc&lt;br&gt;sort&lt;br&gt;create_name&lt;/td&gt;&lt;td&gt;角色编号&lt;br&gt;描述&lt;br&gt;排序&lt;br&gt;创建人&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="510" y="130" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nQt5F8OV-MKO7lQRQoEB-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nQt5F8OV-MKO7lQRQoEB-2" target="2ed32ef02a7f4228-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nQt5F8OV-MKO7lQRQoEB-5" value="1:N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nQt5F8OV-MKO7lQRQoEB-3">
-          <mxGeometry x="-0.0421" y="4" relative="1" as="geometry">
+        <mxCell id="nQt5F8OV-MKO7lQRQoEB-13" value="N:1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nQt5F8OV-MKO7lQRQoEB-12">
+          <mxGeometry x="0.1678" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2ed32ef02a7f4228-1" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;角色表[Role]&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;id&lt;/td&gt;&lt;td&gt;主键id&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;name&lt;/td&gt;&lt;td&gt;角色名称&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;role_code&lt;br&gt;desc&lt;br&gt;sort&lt;br&gt;create_name&lt;/td&gt;&lt;td&gt;角色编号&lt;br&gt;描述&lt;br&gt;排序&lt;br&gt;创建人&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="110" y="150" width="240" height="140" as="geometry" />
-        </mxCell>
         <mxCell id="nQt5F8OV-MKO7lQRQoEB-2" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;员工表[Staff]&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;id&lt;/td&gt;&lt;td&gt;主键id&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;role_id&lt;/td&gt;&lt;td&gt;角色名称&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;role_id_list&lt;br&gt;password&lt;br&gt;staff_name&lt;br&gt;email&lt;br&gt;staff_real_name&lt;br&gt;type&lt;br&gt;sex&lt;br&gt;mobile&lt;br&gt;status&lt;br&gt;company&lt;br&gt;create_name&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;角色编号&lt;br&gt;描述&lt;br&gt;排序&lt;br&gt;创建人&lt;br&gt;员工真实姓名&lt;br&gt;用户类型 1:内部、2:外部&lt;br&gt;性别&lt;br&gt;移动电话&lt;br&gt;账户状态&lt;br&gt;公司名称&lt;br&gt;创建人&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="540" y="100" width="260" height="240" as="geometry" />
+          <mxGeometry x="120" y="80" width="260" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="nQt5F8OV-MKO7lQRQoEB-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nQt5F8OV-MKO7lQRQoEB-4" target="nQt5F8OV-MKO7lQRQoEB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nQt5F8OV-MKO7lQRQoEB-11" value="1:N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nQt5F8OV-MKO7lQRQoEB-10">
+          <mxGeometry x="0.0586" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="nQt5F8OV-MKO7lQRQoEB-4" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;菜单权限[Permission]&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;id&lt;/td&gt;&lt;td&gt;主键id&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pid&lt;/td&gt;&lt;td&gt;父节点id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;sub_app_id&lt;br&gt;perm_name&lt;br&gt;perm_type&lt;br&gt;sort&lt;br&gt;url&lt;br&gt;perm_code&lt;br&gt;icon&lt;br&gt;desc&lt;br&gt;create_name&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;子应用id&lt;br&gt;名称&lt;br&gt;类型：菜单：1，功能：2&lt;br&gt;排序&lt;br&gt;菜单地址&lt;br&gt;菜单编码&lt;br&gt;图标&lt;br&gt;描述&lt;br&gt;创建人&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="120" y="390" width="260" height="210" as="geometry" />
+          <mxGeometry x="120" y="400" width="260" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="nQt5F8OV-MKO7lQRQoEB-9" value="N:1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="nQt5F8OV-MKO7lQRQoEB-6" target="2ed32ef02a7f4228-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nQt5F8OV-MKO7lQRQoEB-6" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;角色权限关联表[role_permission]&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;id&lt;/td&gt;&lt;td&gt;主键id&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;role_id&lt;/td&gt;&lt;td&gt;角色id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;permission_id&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;权限id&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="492.5" y="410" width="235" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="nQt5F8OV-MKO7lQRQoEB-16" value="自定义一个权限注解&lt;br&gt;设置拦截器，拦截所有请求，方法没有被注解，跳过&lt;br&gt;如果被注解了，解析请求头，获取token等，判断用户已经登录&lt;br&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="830" y="210" width="490" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
